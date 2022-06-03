@@ -2,11 +2,11 @@ name: Run .Net Tests
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, linked-list ]
     paths:
     - 'c-sharp/**'
   pull_request:
-    branches: [ main ]
+    branches: [ main, linked-list ]
     paths:
     - 'c-sharp/**'
 
