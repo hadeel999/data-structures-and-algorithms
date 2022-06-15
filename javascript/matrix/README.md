@@ -6,4 +6,4 @@ Write a function which takes in a matrix and returns an array contains the sum o
 ![](./matrixWhiteboard.PNG).
 
 ## Approach & Efficiency
- I used nested loop approach, it has a O(n*n) as time complexity and O(n) as space complexity.
+ I used nested loop approach, it has a O(n*n) as time complexity and O(n) as space complexity. 
