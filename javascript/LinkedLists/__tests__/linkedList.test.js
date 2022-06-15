@@ -125,3 +125,40 @@ it("Can successfully add a node to the end of the linked list", () => {
     expect(ll.head.next.next.next.next).toBeNull();
 
   });
+
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+  it("Where k is greater than the length of the linked list",()=>{
+    const ll=new LinkedList();
+    ll.append("a");
+    expect(ll.kthFormEnd(2)).toEqual("Exception");
+  });
+
+  it("Where k and the length of the list are the same",()=>{
+    const ll=new LinkedList();
+    ll.append("a");
+    ll.append("b");
+    expect(ll.kthFormEnd(1)).toEqual("a");
+  });
+
+  it("Where k is not a positive integer",()=>{
+    const ll=new LinkedList();
+    ll.append("a");
+    expect(ll.kthFormEnd(-1)).toEqual("Exception");
+  });
+
+  it("Where the linked list is of a size 1",()=>{
+    const ll=new LinkedList();
+    ll.append("a");
+    expect(ll.kthFormEnd(0)).toEqual("a");
+  });
+
+  it("Happy Path” where k is not at the end, but somewhere in the middle of the linked list",()=>{
+    const ll=new LinkedList();
+    ll.append("a");
+    ll.append("b");
+    ll.append("c");
+    ll.append("d");
+    ll.append("e");
+    expect(ll.kthFormEnd(3)).toEqual("b");
+  });

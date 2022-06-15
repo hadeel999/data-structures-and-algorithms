@@ -101,6 +101,28 @@ class LinkedList {
         }
         return this;
     }
+
+    kthFormEnd(k){
+        let current=this.head;
+        let length=0;
+        while(current.next){
+            length++;
+            current=current.next;
+        }
+
+        if(k>length||k<0){
+            return "Exception";
+        }
+        else{
+            length=(length)-k;
+            current=this.head;
+            while(length>0){
+                current=current.next;
+                length--;
+            }
+            return current.value;
+    }
+    }
 }
 
 module.exports=LinkedList;
