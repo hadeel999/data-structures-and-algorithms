@@ -162,3 +162,45 @@ it("Can successfully add a node to the end of the linked list", () => {
     ll.append("e");
     expect(ll.kthFormEnd(3)).toEqual("b");
   });
+
+  /////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+  it("zipLists method -test1", () => {
+    const ll1 = new LinkedList();
+    const ll2 = new LinkedList();
+    let ll=new LinkedList();
+    ll1.append(1);
+    ll1.append(3);
+    ll1.append(2);
+    ll2.append(5);
+    ll2.append(9);
+    ll2.append(4);
+    ll=ll1.zipLists(ll1,ll2);
+   expect(ll.toString()).toEqual("{ 1 } -> { 5 } -> { 3 } -> { 9 } -> { 2 } -> { 4 } -> NULL");
+});
+
+it("zipLists method -test2", () => {
+  const ll1 = new LinkedList();
+  const ll2 = new LinkedList();
+  let ll=new LinkedList();
+  ll1.append(1);
+  ll1.append(3);
+  ll2.append(5);
+  ll2.append(9);
+  ll2.append(4);
+  ll=ll1.zipLists(ll1,ll2);
+ expect(ll.toString()).toEqual("{ 1 } -> { 5 } -> { 3 } -> { 9 } -> { 4 } -> NULL");
+});
+
+it("zipLists method -test3", () => {
+  const ll1 = new LinkedList();
+  const ll2 = new LinkedList();
+  let ll=new LinkedList();
+  ll1.append(1);
+  ll1.append(3);
+  ll1.append(2);
+  ll2.append(5);
+  ll2.append(9);
+  ll=ll1.zipLists(ll1,ll2);
+ expect(ll.toString()).toEqual("{ 1 } -> { 5 } -> { 3 } -> { 9 } -> { 2 } -> NULL");
+});
