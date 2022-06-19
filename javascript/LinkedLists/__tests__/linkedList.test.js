@@ -204,3 +204,39 @@ it("zipLists method -test3", () => {
   ll=ll1.zipLists(ll1,ll2);
  expect(ll.toString()).toEqual("{ 1 } -> { 5 } -> { 3 } -> { 9 } -> { 2 } -> NULL");
 });
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+it("isPalindrome method -test1", () => {
+  const ll1 = new LinkedList();
+  ll1.append('t');
+  ll1.append('a');
+  ll1.append('c');
+  ll1.append('o');
+  ll1.append('c');
+  ll1.append('a');
+  ll1.append('t');
+  let result = ll1.isPalindrome(ll1);
+ expect(result).toEqual(true);
+});
+
+it("isPalindrome method -test2", () => {
+  const ll1 = new LinkedList();
+  ll1.append('m');
+  ll1.append('o');
+  ll1.append('o');
+  ll1.append('m');
+  let result = ll1.isPalindrome(ll1);
+ expect(result).toEqual(true);
+});
+
+it("isPalindrome method -test3", () => {
+  const ll1 = new LinkedList();
+  ll1.append('h');
+  ll1.append('o');
+  ll1.append('c');
+  ll1.append('s');
+  ll1.append('e');
+  let result = ll1.isPalindrome(ll1);
+ expect(result).toEqual(false);
+});
