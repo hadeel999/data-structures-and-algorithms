@@ -1,5 +1,5 @@
 'use strict';
-const Stack = require('./Stack');
+const Stack = require('../Stack');
 
 class PseudoQueue {
     constructor() {
@@ -14,7 +14,7 @@ class PseudoQueue {
     dequeue() {
        if (this.stack1.top){
         this.stack2.push(this.stack1.top.value);
-        this.stack1.pop();
+        return this.stack1.pop();
        }else{
         return "Exception";
        }
