@@ -1,23 +1,25 @@
 # Data Structures and Algorithms
 
-See [setup instructions](https://codefellows.github.io/setup-guide/code-301/3-code-challenges), in the Code 301 Setup Guide.
+## Table of Contents
 
-## Repository Quick Tour and Usage
+### [Challenge 1 - Array Reverse](https://github.com/hadeel999/data-structures-and-algorithms/blob/array-reverse/javascript/reverse/READEME.md)
 
-### 301 Code Challenges
+### [Challenge 2 - Array Insers Shift](https://github.com/hadeel999/data-structures-and-algorithms/blob/array-insert-shift/javascript/arrayInsertShift/README.md)
 
-Under the `javascript` folder, at the top level, is a sub-folder called `code-challenges`
+### [Challenge 3 - Linked List Implementation](https://github.com/hadeel999/data-structures-and-algorithms/tree/linked-list/javascript/LinkedLists)
 
-Each day, you'll add one new file to this folder to do your work for the day's assigned code challenge
+### [Challenge 4 - Array Binary Search](https://github.com/hadeel999/data-structures-and-algorithms/blob/array-binary-search/javascript/arrayBinarySearch/README.md)
 
-If you have not already done so, run `npm install` from within this folder to setup your system to be able to run tests using `Jest`
+### [Challenge 5 - Matrix](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/matrix/README.md)
 
-To run your tests
+### [Challenge 6 - Linked List Insertions](https://github.com/hadeel999/data-structures-and-algorithms/blob/linked-list-insertions/javascript/LinkedLists/README1.md)
 
-- Change to the `javascript` folder
-- run `npm test` to run all of the tests
-- run `npm test ##` to only run tests for challenge ## (i.e. 01)
+### [Challenge 7 - Linked List Insertions - kthFromEnd](https://github.com/hadeel999/data-structures-and-algorithms/blob/linked-list-kth/javascript/LinkedLists/README1.md)
 
-### 401 Data Structures, Code Challenges
+### [Challenge 8 - Linked List Insertions - zipLists](https://github.com/hadeel999/data-structures-and-algorithms/blob/linked-list-zip/javascript/LinkedLists/README1.md)
 
-- Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
+### [Challenge 9 - Linked List Insertions - isPalindrome](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/LinkedLists/README1.md)
+
+### [Challenge 10 - Stacks and Queues](https://github.com/hadeel999/data-structures-and-algorithms/tree/stack-and-queue/javascript/stack-and-queue)
+
+### [Challenge 11 - Psuedo Queue](https://github.com/hadeel999/data-structures-and-algorithms/blob/stack-queue-pseudo/javascript/stack-and-queue/psuedoQueue/READEME.md)
