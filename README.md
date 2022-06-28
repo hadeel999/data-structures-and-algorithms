@@ -25,3 +25,5 @@
 ### [Challenge 11 - Psuedo Queue](https://github.com/hadeel999/data-structures-and-algorithms/blob/stack-queue-pseudo/javascript/stack-and-queue/psuedoQueue/READEME.md)
 
 ### [Challenge 12 - FIFO Animal Shelter](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/stack-queue-animal-shelter/README.md)
+
+### [Challenge 13 - Valid Brackets](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/stack-and-queue/validateBrackets/README.md)
