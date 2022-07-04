@@ -62,4 +62,14 @@ describe('TREES TEST',()=>{
         let postOrder = tree.postOrder();
         expect(postOrder).toEqual(expectedOutput);
     });
+
+    test('Can successfully return the max value in a tree', () => {
+        let output = 9;
+        let max = tree.findMax(tree.root);
+        expect(max).toEqual(output);
+    });
+    test('Can successfully return Exception in using findMax function on an empty tree', () => {
+        const newTree = new BinaryTree();
+        expect(newTree.findMax(newTree.root)).toEqual("Exception");
+    });
 })
