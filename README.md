@@ -29,3 +29,5 @@
 ### [Challenge 13 - Valid Brackets](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/stack-and-queue/validateBrackets/README.md)
 
 ### [Challenge 14 - Trees Implementation](https://github.com/hadeel999/data-structures-and-algorithms/tree/main/javascript/trees)
+
+### [Challenge 15 - Maximum Value in a Tree ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/trees/FINDMAX.md)
