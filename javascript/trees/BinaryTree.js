@@ -40,6 +40,18 @@ class BinaryTree{
         traverse(this.root);
         return result;
     }
+
+    findMax(root){
+        if (root==null) return "Exception";
+        else {
+            let max= root.value;
+            let right=this.findMax(root.right);
+            let left=this.findMax(root.left);
+            if(right>max) max=right;
+            if(left>max) max=left;
+            return max;
+        }
+    }
 }
 
 module.exports=BinaryTree;
