@@ -33,3 +33,5 @@
 ### [Challenge 15 - Maximum Value in a Tree ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/trees/FINDMAX.md)
 
 ### [Challenge 16 - Breadth First ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/trees/BREADTHFIRST.md)
+
+### [Challenge 17 - Fizz Buzz Tree ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/trees/k-aryTrees/README.md)
