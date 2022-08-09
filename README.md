@@ -35,3 +35,5 @@
 ### [Challenge 16 - Breadth First ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/trees/BREADTHFIRST.md)
 
 ### [Challenge 17 - Fizz Buzz Tree ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/trees/k-aryTrees/README.md)
+
+### [Challenge 26 - Insertion Sort ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/sorting-insertion/README.md)
