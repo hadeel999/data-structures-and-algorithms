@@ -41,3 +41,5 @@
 ### [Challenge 27 - Merge Sort ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/merge-sort/README.md)
 
 ### [Challenge 28 - Quick Sort ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/quick-sort/README.md)
+
+### [Challenge 30 - Hash Table ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/hashtables/README.md)
