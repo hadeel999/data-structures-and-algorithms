@@ -1,6 +1,7 @@
 "use strict";
 
 const { HashTable } = require("../hashtables");
+const {repeatedWords} = require("../hashtables");
 
 const HashTable1 = new HashTable(33);
 HashTable1.set("haya", "1");
@@ -50,5 +51,21 @@ describe("Testing HashTables", () => {
 
     expect(hashedValue).toBeGreaterThanOrEqual(0);
     expect(hashedValue).toBeLessThanOrEqual(10);
+  });
+});
+
+describe("Testing RepeatedWords Function", () => {
+  it("Returns the first repeated word, Test1", () => {
+    let word = repeatedWords(
+      "Once upon a time, there was a brave princess who"
+    );
+    expect(word).toEqual("a");
+  });
+
+  it("Returns the first repeated word, Test2", () => {
+    let word = repeatedWords(
+      "It was a queer, sultry summer, the summer they electrocuted the Rosenbergs, and I didn’t know what I was doing in New York"
+    );
+    expect(word).toEqual("the");
   });
 });

@@ -68,7 +68,18 @@ class HashTable {
     console.log(arr);
     return arr;
   }
-
+}
+  function repeatedWords(text) {
+    let record = new HashTable(15);
+    let word = text.split(" ");
+    for (let i = 0; i < word.length; ++i) {
+      if (record.contains(word[i])) {
+        record.set(word[i], record.get(word[i]) + 1);
+        return word[i];
+      } else {
+        record.set(word[i], 1);
+      }
+    }
 }
 
-module.exports = {HashTable}
+module.exports = {HashTable,repeatedWords}
