@@ -69,6 +69,7 @@ class HashTable {
     return arr;
   }
 }
+
   function repeatedWords(text) {
     let record = new HashTable(15);
     let word = text.split(" ");
@@ -82,4 +83,14 @@ class HashTable {
     }
 }
 
-module.exports = {HashTable,repeatedWords}
+function left_join(leftHashMap, rightHashMap) {
+  for(let [key, value] of leftHashMap) {
+    console.log(value)
+    let rightValue = null
+    rightHashMap.has(key) ? rightValue = rightHashMap.get(key) : null
+    leftHashMap.set(key, [value, rightValue])
+  }
+  return leftHashMap
+}
+
+module.exports = {HashTable,repeatedWords,left_join}
