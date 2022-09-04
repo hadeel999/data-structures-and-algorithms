@@ -3,7 +3,7 @@ Create the function that will traverse a graph using Breadth First.
 
 ## Whiteboard Process
 
-![](./)
+![](./graphs1.PNG)
 
 ## Approach & Efficiency
 - Time Comlexity: O(n) because of looping.

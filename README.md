@@ -42,8 +42,10 @@
 
 ### [Challenge 28 - Quick Sort ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/javascript/quick-sort/README.md)
 
-### [Challenge 30 - Hash Table ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/hashtables/README.md)
+### [Challenge 29 - Hash Table ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/hashtables/README.md)
 
 ### [Challenge 30 - Hash Table - Repeated Words ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/hashtables/README2.md)
 
 ### [Challenge 31 - Hash Table - Left Join ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/hashtables/README3.md)
+
+### [Challenge 32 - Hash Table - Left Join ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/graph/README.md)
