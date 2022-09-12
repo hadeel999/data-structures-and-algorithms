@@ -48,4 +48,4 @@
 
 ### [Challenge 31 - Hash Table - Left Join ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/hashtables/README3.md)
 
-### [Challenge 32 - Hash Table - Left Join ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/graph/README.md)
+### [Challenge 32 - Hash Table - Graph Traverse by Breadth First ](https://github.com/hadeel999/data-structures-and-algorithms/blob/main/graph/README.md)
